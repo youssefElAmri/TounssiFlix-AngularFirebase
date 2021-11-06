@@ -1,0 +1,13 @@
+<div class="movie">
+  <img [src]="movie.image" [alt]="movie.title" />
+  <div class="movie-info">
+    <h3>{{ movie.title }}</h3>
+    <span class="rating"
+      [ngClass]="{ 'green': movie.rating > 7,'red': movie.rating < 5, 'orange': movie.rating >= 5 && movie.rating <= 7}">{{ movie.rating }}</span>
+  </div>
+  <div class="overview">
+    <h3>{{ movie.title }}</h3>
+    <h4>Synopsis:</h4>
+    {{ movie.overview | cropWords:500}}
+  </div>
+</div>

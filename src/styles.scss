@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-color: #111111;
+  --secundary-color: #222222;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  min-height: 100vh;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary-color);
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0rem 1rem;
+  box-sizing: border-box;
+}

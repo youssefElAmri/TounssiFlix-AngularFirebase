@@ -1,0 +1,14 @@
+<app-header (search)="onSearch($event)"></app-header>
+<div class="main">
+  <app-movie [_movie]="movie" *ngFor="let movie of movies"></app-movie>
+  <div class="load-more">
+    <button (click)="onLoadMore()" *ngIf="page < totalPages" :[disabled]="loading">
+      {{ 'Load more...' }}
+    </button>
+  </div>
+</div>
+
+<h2 style="text-align:center;color:#fff" *ngIf="!loading && !movies.length">
+  Pas de films correspondant à votre recherche, veuillez réessayer.. "{{ query }}"
+</h2>
+<app-loader [color]="'#dd1b16'" *ngIf="loading"> </app-loader>
