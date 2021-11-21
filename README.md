@@ -5,3 +5,6 @@
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## DEVELOPPER OF THIS APP
+![Ejemplo de imagen](https://yt3.ggpht.com/ytc/AKedOLRf8h1wgivam2zWI54WDmwnsEyGUQLZY_88o93-lQ=s900-c-k-c0x00ffffff-no-rj)
