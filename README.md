@@ -1,6 +1,6 @@
 # Angular: Movies Catalogue
 1. Simple Angular App to list and search movies 
-![Ejemplo de imagen](http://angular-movies-catalog.surge.sh/assets/images/share.jpeg)
+![Ejemplo de imagen](https://images.ctfassets.net/zojzzdop0fzx/26Ln6nR3hRwlz08z5OOhVF/f928fdb5a4ba37871315ada824e7abe9/Asset_57.png)
 
 ## Development server
 
